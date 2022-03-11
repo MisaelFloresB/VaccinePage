@@ -1,0 +1,16 @@
+.pageTitles{
+    color: var(--text-color-titles);
+
+}
+.cardsTitles{
+    color: var(--text-color-titles);
+}
+@media (min-width: 950px){
+
+    .pageTitles{
+        font-size: 50px;
+        color: var(--text-color-titles);
+        text-align: center;
+    }
+
+}

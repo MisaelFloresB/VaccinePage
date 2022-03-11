@@ -1,0 +1,124 @@
+.nurseImage{
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+}
+.vaccination{
+    text-align: center;
+    font-size: 20px;
+
+}
+.vaccinationInfo{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.tarjetaReserva{
+    display: none;
+}
+
+.triangleRigh{
+    width: 0;
+	height: 0;
+	border-width: 0 100px 91px 100px;
+	border-color: transparent transparent #F2F2F2 transparent;
+	border-style: solid;
+	transform: rotate(360deg);
+    margin: auto;
+    
+
+}
+
+@media (min-width: 950px){
+    .nurseImage{
+        max-width: 55%;
+        z-index: 1;
+    }
+    .vaccination{
+        font-size: 20px;
+        
+    
+    }
+
+    .vaccinationInfo{
+
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .divBlock{
+        text-align: center;
+        font-size: 30px;
+    }
+    .vaccinationInfoSchedule{
+        padding-top: 70px;
+    }
+
+    .tarjetaReserva{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50px;
+        top: 740px;
+        width: 65%;
+        min-width: 660px;
+        height: 100px;
+        font-size: 1.6rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px 1px;
+        padding: 15px 50px;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .tarjetaReservaFlotante{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .Iconotarjeta{
+        width: 24px;
+        height: 24px;
+        align-self: baseline;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 4px;
+        margin: 5px 10px 0px 20px;
+        padding: 1px;
+        background: center center / contain no-repeat;
+    
+    }
+    .locacion{
+        background-image: url(./assets/location.png);
+    
+    }
+    .calendario{
+        background-image: url(./assets/calendario.png);
+    
+    
+    }
+    .tipoVacuna{
+        background-image: url(./assets/jeringuilla.png);
+    
+    }
+    .buttonSubmit{
+        width: 120px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        background-color: var(--blue-king);
+        color: var(--white);
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .triangleRigh{
+        border-width: 123px 100px 91px 100px;
+        transform: rotate(270deg);
+    }
+
+}

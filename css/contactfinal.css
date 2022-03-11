@@ -1,0 +1,84 @@
+.sectionFooter{
+    background-color: var(--contact-color) ;
+
+}
+.sectionFooterGeneral{
+    margin-top: 240px;
+    display: block;
+}
+
+.sectionFooterGoals{
+    text-align: justify;
+    margin-left: 10%;
+
+}
+
+.titleFooter{
+    color: var(--text-color-vacuna);
+}
+
+.sectionFooterInfo{
+    text-align: justify;
+    margin-left: 10%;
+
+}
+.titlesACS{
+    color: var(--text-color-vacuna);
+
+}
+
+.footeRigths{
+    margin: auto;
+    text-align: justify;
+    margin-left: 10%;
+    
+
+}
+
+@media (min-width: 950px){
+
+    .sectionFooterGeneral{
+        margin-top: 240px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sectionFooterGoals{
+        text-align: justify;
+    
+    }
+    
+    .titleFooter{
+        font-size: 25px;
+    }
+    .infoFooter{
+        font-size: 20px;
+
+    }
+    
+    .sectionFooterInfo{
+        display: flex;
+        justify-content: space-between;
+        text-align: justify;
+        margin-right: 10%;
+        gap: 20px;
+        
+    
+    }
+
+    .titlesACS{
+        color: var(--text-color-vacuna);
+    
+    }
+    
+    .footeRigths{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        text-align: justify;
+        margin-right: 4%;
+        
+    
+    }
+
+}

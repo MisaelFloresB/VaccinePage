@@ -1,0 +1,42 @@
+.astraLogo{
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+
+}
+.logosBlock{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.trianglepage{
+    width: 0;
+	height: 0;
+	border-width: 123px 100px 91px 100px;
+	border-color: transparent transparent #F2F2F2 transparent;
+	border-style: solid;
+	transform: rotate(270deg);
+    margin-left: auto;
+
+    
+        
+}
+
+
+@media (min-width: 950px){
+    .astraLogo{
+        max-width: 70%;
+
+    }
+    .logosBlock{
+        padding-top: 130px;
+        padding-bottom: 50px;
+        padding-left: 23.5%;
+    
+    }
+
+    .trianglepage{
+        margin-top: auto;
+    }
+}

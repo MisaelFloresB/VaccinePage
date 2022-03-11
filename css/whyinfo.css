@@ -1,0 +1,31 @@
+.whyInfo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.whyInfoText{
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 6%;
+
+}
+.whyInfoTitle{
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 2%;
+    color: var(--text-color-titles);
+}
+
+@media (min-width: 950px){
+
+    .whyInfoText{
+        font-size: 30px;
+        
+    }
+
+    .whyInfoTitle{
+
+        margin-left: auto;
+        color: var(--text-color-titles);
+    }
+}
